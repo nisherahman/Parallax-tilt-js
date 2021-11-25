@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+/*=======================
+common css ends
+======================= */
+
+/*=======================
+banner part starts
+======================= */
+#banner{
+    height:600px;
+    background: transparent;
+    position:relative;
+    z-index:1;
+}
+
+#banner::after{
+    content:'';
+    width:100%;
+    height:100%;
+    background:rgba(0, 0, 0,0.6);
+    position:absolute;
+    inset:0;
+    z-index:-1;
+}
+
+#banner .banner-text{
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column-reverse;
+    align-items:center;
+    color:#fff;
+}
+#banner .banner-text h4{
+    font-size:25px;
+}
+#banner .banner-text h2{
+    font-size:45px;
+}
+#banner .banner-text p{
+    font-size:35px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+/*=======================
+banner part ends
+======================= */
+
+/*=======================
+about part starts
+======================= */
+#about{
+    height:600px;
+    background:#5bc7b9;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#about .about{
+    height:600px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+#about .about .about-img{
+    flex-basis:25%;
+
+}
+#about .about .about-img img{
+    width:100%;
+}
+#about .about .about-text{
+    flex-basis:70%;
+}
+/*=======================
+about part ends
+======================= */
+
+
+
